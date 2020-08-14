@@ -1,9 +1,3 @@
-scoretally = [ {'name' : 'abdullah', 'score': 71 }, {'name' : 'solomon', 'score': 81 }, {'name' : 'jibri', 'score': 99 }]
-# score[initial]
-scoretally1 = [ {'name' : 'abdullah', 'score': 81 }, {'name' : 'solomon', 'score': 88 }, {'name' : 'jibri', 'score': 76 }]
-
-scoretally2 = [ {'name' : 'abdullah', 'score': 91 }, {'name' : 'solomon', 'score': 89 }, {'name' : 'jibri', 'score': 88 }]
-
 
 def grader(score, subject):
 
@@ -27,6 +21,6 @@ def grader(score, subject):
         initial += 1   
 
 # grader(score, subject)
-grader(scoretally, "Biology")
-grader(scoretally1, "physic")
-grader(scoretally2, "Engineering maths")
+name = "solomon"
+def animal(name):
+    print(name)
