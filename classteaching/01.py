@@ -8,6 +8,10 @@
 # benztyres = benz.tyre
 # print(benztyres)
 
+scalefrom = input(" Enter present Scale: ")
+scaleto = input(" Enter changing scale ")
+amount = int(input("Enter amount"))
+
 class Thermometerdiff:
     
     def celcius_to_kelvin(self, amount):    
@@ -18,6 +22,11 @@ class Thermometerdiff:
         return result
     
 thermometer = Thermometerdiff() 
-convert1 = thermometer.celcius_to_kelvin(120)
+ 
+ if scalefrom == 'celcius' and scaleto == 'kelvin':
+    convert1 = thermometer.celcius_to_kelvin(120)
+    print(convert1)
+
+
 convert2 = thermometer.kelvin_to_celcius(2938)
 print(convert2)
